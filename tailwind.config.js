@@ -14,6 +14,8 @@ module.exports = {
     extend: {
       animation: {
         aurora: "aurora 60s linear infinite",
+        marquee: 'marquee 12s linear infinite',
+        marquee2: 'marquee2 12s linear infinite',
       },
       keyframes: {
         aurora: {
@@ -23,6 +25,14 @@ module.exports = {
           to: {
             backgroundPosition: "350% 50%, 350% 50%",
           },
+        },
+        marquee: {
+          '0%': { transform: 'translateX(0%)' },
+          '100%': { transform: 'translateX(-100%)' },
+        },
+        marquee2: {
+          '0%': { transform: 'translateX(100%)' },
+          '100%': { transform: 'translateX(0%)' },
         },
       },
     },

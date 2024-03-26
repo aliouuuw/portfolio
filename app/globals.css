@@ -7,4 +7,16 @@
   .text-balance {
     text-wrap: balance;
   }
+  h1 {
+    @apply text-4xl lg:text-7xl ;
+  }
+  h2 {
+    @apply text-2xl lg:text-5xl ;
+  }
+  h3 {
+    @apply text-lg lg:text-2xl;
+  }
+  h4 {
+    @apply text-base lg:text-xl;
+  }
 }

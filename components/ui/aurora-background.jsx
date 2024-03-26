@@ -9,10 +9,10 @@ export const AuroraBackground = ({
   ...props
 }) => {
   return (
-    <main>
+    <div className="overflow-y-scroll overflow-x-hidden bg-black">
       <div
         className={cn(
-          "relative flex flex-col  h-[100vh] items-center justify-center bg-zinc-950  text-white transition-bg",
+          "relative flex flex-col  h-[100vh] items-center  text-white transition-bg",
           className
         )}
         {...props}
@@ -29,7 +29,7 @@ export const AuroraBackground = ({
             dark:[background-image:var(--dark-gradient),var(--aurora)]
             [background-size:300%,_200%]
             [background-position:50%_50%,50%_50%]
-            filter blur-[10px] invert dark:invert-0
+            filter blur-[10px] grayscale
             after:content-[""] after:absolute after:inset-0 after:[background-image:var(--white-gradient),var(--aurora)] 
             after:dark:[background-image:var(--dark-gradient),var(--aurora)]
             after:[background-size:200%,_100%] 
@@ -43,6 +43,6 @@ export const AuroraBackground = ({
         </div>
         {children}
       </div>
-    </main>
+    </div>
   );
 };
