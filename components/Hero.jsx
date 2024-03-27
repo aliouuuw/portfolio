@@ -17,8 +17,7 @@ export const Hero = () => {
               src="/pp.jpg"
               alt="Profile Image"
               fill
-              objectFit="cover"
-              className="rounded-full object-center brightness-95"
+              className="rounded-full object-center brightness-95 object-cover"
             />
           </div>
           <div className="flex gap-x-2">
@@ -33,10 +32,10 @@ export const Hero = () => {
             </Link>
           </div>
         </div>
-        <AnimatedTitle text="Hi I'm Aliou!" className="text-xl" x={20} y={10} />
+        <AnimatedTitle text="Hi, I'm Aliou" className="text-xl mb-2" x={20} y={10} />
         <AnimatedSubTitle
-          text="With over 7 years of experience, I've worked with startups and large corporations worldwide, crafting cutting-edge applications and innovative technology products."
-          className="text-sm text-pretty"
+          text="With over 5 years of experience, I've worked with startups and large corporations worldwide, crafting cutting-edge applications and innovative technology products."
+          className="text-sm text-pretty text-neutral-400 "
         />
       </div>
       <Marquee items={items} />

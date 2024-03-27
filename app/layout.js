@@ -1,7 +1,7 @@
-import { DM_Sans, Inter, Red_Hat_Display } from "next/font/google";
+import { DM_Sans, Questrial, Red_Hat_Display } from "next/font/google";
 import "./globals.css";
 
-const inter = Red_Hat_Display({ subsets: ["latin"] });
+const inter = Questrial({ subsets: ["latin"] , weight:"400"});
 
 export const metadata = {
   title: "Aliou Wade",
