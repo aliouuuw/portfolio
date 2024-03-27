@@ -20,7 +20,7 @@ module.exports = {
       keyframes: {
         aurora: {
           from: {
-            backgroundPosition: "50% 50%, 50% 50%",
+            backgroundPosition: "top left",
           },
           to: {
             backgroundPosition: "350% 50%, 350% 50%",

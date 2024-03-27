@@ -22,7 +22,7 @@ const getExperiences = async () => {
 export default async function Experience() {
   const experiences = await getExperiences();
   return (
-    <section className="w-full mb-8 py-12 rounded-2xl border border-neutral-700 shadow-neutral-900 shadow-lg backdrop-blur-md bg-gradient-to-bl from-transparent to-neutral-900 to-90%">
+    <section className="w-full mb-8 py-12 rounded-2xl border border-neutral-700 shadow-neutral-900 shadow-lg backdrop-blur-md bg-gradient-to-bl from-transparent to-neutral-950 to-90%">
       <div className="px-4">
         <div className="space-y-4">
           <h2>Experience</h2>
