@@ -2,16 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
-
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+  body {
+    background-color: black;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
+
   h1 {
-    @apply text-4xl lg:text-7xl ;
+    @apply text-4xl lg:text-7xl;
   }
   h2 {
-    @apply text-2xl lg:text-5xl ;
+    @apply text-2xl lg:text-5xl;
   }
   h3 {
     @apply text-lg lg:text-2xl;

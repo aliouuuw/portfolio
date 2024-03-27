@@ -16,7 +16,6 @@ export const Hero = () => {
             <Image
               src="/cartoon.png"
               alt="Profile Image"
-              quality={100}
               fill
               objectFit="cover"
               className="rounded-lg object-center"
@@ -37,7 +36,7 @@ export const Hero = () => {
         <AnimatedTitle text="Hi I'm Aliou!" className="text-xl" x={20} y={10} />
         <AnimatedSubTitle
           text="With over 7 years of experience, I've worked with startups and large corporations worldwide, crafting cutting-edge applications and innovative technology products."
-          className="text-sm text-balance"
+          className="text-sm text-pretty"
         />
       </div>
       <Marquee items={items} />

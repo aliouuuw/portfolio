@@ -2,6 +2,7 @@
 import { cn } from "@/utils/cn";
 import React, { ReactNode } from "react";
 
+
 export const AuroraBackground = ({
   className,
   children,
@@ -9,15 +10,14 @@ export const AuroraBackground = ({
   ...props
 }) => {
   return (
-    <div className="overflow-y-scroll overflow-x-hidden bg-black">
       <div
         className={cn(
-          "relative flex flex-col  h-[100vh] items-center  text-white transition-bg",
+          "relative h-[100vh] bg-black",
           className
         )}
         {...props}
       >
-        <div className="absolute inset-0 overflow-hidden">
+        <div className="absolute top-0 left-0 inset-0 overflow-hidden w-screen">
           <div
             //   I'm sorry but this is what peak developer performance looks like // trigger warning
             className={cn(
@@ -29,7 +29,7 @@ export const AuroraBackground = ({
             dark:[background-image:var(--dark-gradient),var(--aurora)]
             [background-size:300%,_200%]
             [background-position:50%_50%,50%_50%]
-            filter blur-[10px] grayscale
+            filter blur-[10px] invert-0
             after:content-[""] after:absolute after:inset-0 after:[background-image:var(--white-gradient),var(--aurora)] 
             after:dark:[background-image:var(--dark-gradient),var(--aurora)]
             after:[background-size:200%,_100%] 
@@ -43,6 +43,5 @@ export const AuroraBackground = ({
         </div>
         {children}
       </div>
-    </div>
   );
 };
