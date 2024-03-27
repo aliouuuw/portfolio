@@ -12,9 +12,9 @@ export const Hero = () => {
     <div className="">
       <div className="col-span-2 rounded-2xl border border-neutral-700 shadow-neutral-900 shadow-lg backdrop-blur-md bg-gradient-to-bl from-transparent to-neutral-900 to-90% p-8">
         <div className="flex justify-between items-center">
-          <div className="relative h-28 w-28 rounded-lg p-4 mb-4">
+          <div className="relative h-32 w-28 rounded-lg p-4 mb-4">
             <Image
-              src="/cartoon.png"
+              src="/pp4.jpg"
               alt="Profile Image"
               fill
               objectFit="cover"
