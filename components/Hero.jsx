@@ -10,7 +10,7 @@ export const Hero = () => {
   const items = ["Front-end", "Back-end", "Mobile", "Arduino", "DevOps", "IoT"];
   return (
     <div className="">
-      <div className="col-span-2 rounded-2xl border border-neutral-700 shadow-neutral-900 shadow-lg backdrop-blur-md bg-gradient-to-bl from-transparent to-neutral-950 to-90% p-8">
+      <div className="col-span-2 rounded-2xl border border-neutral-700 shadow-neutral-900 shadow-lg backdrop-blur-md bg-gradient-to-bl from-transparent to-neutral-950 to-90% p-4 md:p-8">
         <div className="flex justify-between items-center">
           <div className="relative h-24 w-24 rounded-full mb-4">
             <Image

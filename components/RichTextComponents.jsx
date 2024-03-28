@@ -20,10 +20,10 @@ export const RichTextComponents = {
   },
   list: {
     bullet: ({ children }) => (
-      <ul className="ml-10 my-4 list-disc font-light">{children}</ul>
+      <ul className="ml-4 my-4 list-disc font-light">{children}</ul>
     ),
     number: ({ children }) => (
-      <ol className="ml-10 my-4 list-decimal font-light">{children}</ol>
+      <ol className="ml-4 my-4 list-decimal font-light">{children}</ol>
     ),
   },
   block: {

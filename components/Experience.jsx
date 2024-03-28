@@ -31,8 +31,8 @@ const getExperiences = async () => {
 export default async function Experience() {
   const experiences = await getExperiences();
   return (
-    <section className="w-full mb-8 py-8 rounded-2xl border border-neutral-700 shadow-neutral-900 shadow-lg backdrop-blur-md bg-gradient-to-bl from-transparent to-neutral-950 to-90%">
-      <div className="px-8">
+    <section className="w-full mb-8 p-4 md:p-8 rounded-2xl border border-neutral-700 shadow-neutral-900 shadow-lg backdrop-blur-md bg-gradient-to-bl from-transparent to-neutral-950 to-90%">
+      <div className="">
         <div className="space-y-2 mb-4">
           <AnimatedSubTitle text="Experience" className="text-3xl mb-2"  delay={0.4}/>
           <AnimatedSubTitle
@@ -42,12 +42,12 @@ export default async function Experience() {
         />
         </div>
 
-        <div className="w-full border border-neutral-700 rounded-lg p-4 h-96 overflow-scroll snap-y snap-mandatory">
+        <div className="w-full p-4 md:p-8 border border-neutral-700 rounded-lg h-96 overflow-scroll snap-y snap-mandatory">
           {experiences.map((experience, index) => (
-              <div key={index} className="snap-always snap-start">
+              <div key={index} className="snap-always snap-start pt-2">
                 <div className="flex items-center justify-between gap-4">
                   <div className="flex flex-col justify-center ">
-                    <h3 className="text-lg font-bold">{experience.position}</h3>
+                    <h3 className="font-bold">{experience.position}</h3>
                     <p className="text-sm text-neutral-400">
                       {experience.title}
                     </p>
