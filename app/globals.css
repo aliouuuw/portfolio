@@ -43,7 +43,7 @@
   h1 {
     @apply text-4xl lg:text-7xl;
   }
-  h2 {
+h2 {
     @apply text-2xl lg:text-5xl;
   }
   h3 {

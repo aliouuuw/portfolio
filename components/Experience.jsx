@@ -4,6 +4,7 @@ import AnimatedSubTitle from "./ui/animated-subtitle";
 import moment from 'moment';
 import { PortableText } from "next-sanity";
 import { RichTextComponents } from "./RichTextComponents";
+import { Separator } from "./ui/separator";
 
 const getExperiences = async () => {
   try {
@@ -62,6 +63,7 @@ export default async function Experience() {
                     components={RichTextComponents}
                   />
                 </div>
+                {index != experiences.length-1 ? <Separator className="bg-neutral-400 my-4"/> : null }
               </div>
             ))}
         </div>
