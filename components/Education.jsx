@@ -87,7 +87,7 @@ export const Education = () => {
           <div className="flex items-center justify-between">
             <div className="space-y-1">
               <h3 className="font-bold leading-none">
-                Dakar Amaerican University of Science & Technology
+                Dakar American University of Science & Technology
               </h3>
               <p className="text-sm text-neutral-400">
                 BaSc in Computer Science | 2017
