@@ -58,7 +58,7 @@ export const Hero = () => {
               "My recent focus has been web and mobile development..",
               "Looking to get into AI soon!",
             ]}
-            loop={5}
+            loop
             cursor
             cursorStyle='_'
             typeSpeed={70}
