@@ -3,14 +3,16 @@ import AnimatedSubTitle from "./ui/animated-subtitle";
 import { Button } from "./ui/button";
 import { Separator } from "./ui/separator";
 import Link from "next/link";
+import { GraduationCap } from 'lucide-react';
 
 export const Education = () => {
   return (
     <section className="w-full mb-8 p-4 md:p-8 rounded-2xl border border-neutral-700 shadow-neutral-900 shadow-lg backdrop-blur-md bg-gradient-to-bl from-transparent to-neutral-950 to-90%">
       <div className="space-y-2 mb-4">
         <AnimatedSubTitle
+          icon={<GraduationCap className="h-6" />}
           text="Education"
-          className="text-3xl mb-2"
+          className="text-3xl mb-2 flex items-center gap-x-2"
           delay={0.4}
         />
         <AnimatedSubTitle

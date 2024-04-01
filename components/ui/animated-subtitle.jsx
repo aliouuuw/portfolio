@@ -5,7 +5,7 @@ import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
 
-export default function AnimatedSubTitle({ className, text, delay}) {
+export default function AnimatedSubTitle({ className, text, delay, icon}) {
   const ctrls = useAnimation();
 
   const { ref, inView } = useInView({
@@ -40,6 +40,7 @@ export default function AnimatedSubTitle({ className, text, delay}) {
 
   return (
     <h2 aria-label={text} role="heading" className={className}>
+      {icon}
       {text.split(" ").map((word, index) => {
         return (
             //word animation
