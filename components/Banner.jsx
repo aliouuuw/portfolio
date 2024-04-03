@@ -11,8 +11,8 @@ export default function BannerComponent() {
           <div className="flex items-center text-sm text-center ">
             <MdAnnouncement className="m-2 h-4 w-4" />
             <p className="max-md:text-xs text-neutral-400">
-              Working on adding mobile apps to Projects. Here&nbsp;
-            <span className="text-green-500">soon</span>
+            <span className="text-green-500">Soon: </span>
+            Mobile apps to projects & Blog section
             </p>
           </div>
         </div>
