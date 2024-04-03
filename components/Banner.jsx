@@ -12,7 +12,7 @@ export default function BannerComponent() {
             <MdAnnouncement className="m-2 h-4 w-4" />
             <p className="max-md:text-xs text-neutral-400">
             <span className="text-green-500">Soon: </span>
-            Mobile apps to projects & Blog section
+            Adding mobile apps to Projects & a Blog section
             </p>
           </div>
         </div>
